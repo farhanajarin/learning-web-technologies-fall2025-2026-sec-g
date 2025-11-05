@@ -1,4 +1,4 @@
-<Products>
+<products>
    <Product >
      <id sr="1">11</id>
      <name>Samsung</name>
@@ -20,4 +20,4 @@
      <stock>100</stock>
      <status>1</status>
    </Product>
-</Products>
+</products>

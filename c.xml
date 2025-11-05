@@ -1,0 +1,32 @@
+<departments>
+   <shop>
+    <id sr="1">1</id>
+    <name>John Doe</name>
+    <housnum>H#38</housnum>
+    <roadnum>R#3</roadnum>
+    <area>Banani</area>
+    <city>Dhaka</city>
+    <department>Sales</department>
+    <salary>20000</salary>
+   </shop>
+   <shop>
+    <id sr="2">2</id>
+    <name>Mark Zuckerberg</name>
+    <flat>flat#A/1</flat>
+    <housnum>H#20</housnum>
+    <roadnum>R#18</roadnum>
+    <area>Mirpur</area>
+    <city>Dhaka</city>
+    <department>Accounts</department>
+    <salary>12000</salary>
+   </shop>
+   <shop>
+    <id sr="3">3</id>
+    <name>Ala Voski</name>
+    <housnum>H#38</housnum>
+    <roadnum>R#3</roadnum>
+    <area>Motijheel</area>
+    <department>Human Resource</department>
+    <salary>30000</salary>
+   </shop>
+</shops>

@@ -1,0 +1,23 @@
+<admissions>
+  <admission>
+    <slno sr="1">23</slno>
+    <name>Johan Carter</name>
+    <day>25</day>
+    <month>12</month>
+    <year>2015</year>
+  <admission>
+  <admission>
+     <slno sr="2">29</slno>
+     <name>Bob Marshal</name>
+     <day>13</day>
+    <month>01</month>
+    <year>1999</year>
+     <admission>
+     <admission>
+     <slno sr="3">35</slno>
+     <name>Clark Kent</name>
+     <day>17</day>
+    <month>06</month>
+    <year>2005</year>
+  <admission>
+</admissions>
