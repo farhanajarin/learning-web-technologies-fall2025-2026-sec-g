@@ -28,6 +28,38 @@
 
     <p>Result: <span id="result"></span></p>
 
-   
+   <script>
+        function calculate() {
+            var n1 = document.getElementById("num1").value;
+            var n2 = document.getElementById("num2").value;
+            var opList = document.getElementsByName("op");
+            var op = "";
+            var i;
+
+            for (i = 0; i < opList.length; i++) {
+                if (opList[i].checked) {
+                    op = opList[i].value;
+                    break;
+                }
+            }
+
+            var a = parseFloat(n1);
+            var b = parseFloat(n2);
+
+            if (isNaN(a) || isNaN(b) || op === "") {
+                document.getElementById("result").textContent = "Please enter numbers and select an operation.";
+                return false;
+            }
+
+            var res;
+
+            if (op === "+") {
+                res = a + b;
+            }
+
+            document.getElementById("result").textContent = res;
+            return false; 
+        }
+    </script>
 </body>
 </html>
