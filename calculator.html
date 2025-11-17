@@ -59,8 +59,13 @@
                 res = a - b;
             }  } else if (op === "*") {
                 res = a * b;
-            } 
-
+            }  else if (op === "/") {
+                if (b === 0) {
+                    document.getElementById("result").textContent = "Cannot divide by zero.";
+                    return false;
+                }
+                res = a / b;
+            }
 
             document.getElementById("result").textContent = res;
             return false; 
