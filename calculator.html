@@ -55,7 +55,12 @@
 
             if (op === "+") {
                 res = a + b;
-            }
+            } else if (op === "-") {
+                res = a - b;
+            }  } else if (op === "*") {
+                res = a * b;
+            } 
+
 
             document.getElementById("result").textContent = res;
             return false; 
