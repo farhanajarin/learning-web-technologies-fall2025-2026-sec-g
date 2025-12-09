@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <title>Found Item</title>
+</head>
+<body>
+    <form method="post" action="#" onsubmit="return validateFoundItem();">
+        <fieldset>
+            <legend>Report Found Item</legend>
+            <table>
+                <tr>
+                    <td>Item Name</td>
+                    <td><input type="text" id="found_item_name" name="item_name" value=""></td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td><input type="text" id="found_description" name="description" value=""></td>
+                </tr>
+                <tr>
+                    <td>Location Found</td>
+                    <td><input type="text" id="found_location" name="location_found" value=""></td>
+                </tr>
+                <tr>
+                    <td>Date Found</td>
+                    <td><input type="date" id="found_date" name="date_found" value=""></td>
+                </tr>
+                <tr>
+                    <td>Contact Phone</td>
+                    <td><input type="text" id="found_phone" name="contact_phone" value=""></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" name="submit" value="Submit"></td>
+                </tr>
+            </table>
+            <p id="foundItemError" style="color:red;"></p>
+        </fieldset>
+    </form>
+
+<script src="foundItemValidation.js"></script>
+
+</body>
+</html>
